@@ -5,7 +5,6 @@
 
 
 from flask import Flask,request,render_template
-from textblob import TextBlob
 import google.generativeai as palm
 
 import replicate
